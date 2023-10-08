@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #141325CC;
+}
+form {
+    padding: 100px 70px;
+    background: #0A0A14;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px 0;
+}
+h1{
+    color: #FBFDF5;
+font-family: Roboto;
+font-size: 24px;
+font-weight: 600;
+text-align: center;
+}
+input{
+    border-radius: 10px;
+    background: transparent;
+    border: 4px solid #342479;
+    width: 100%;
+height: 69px;
+color: #81858F;
+font-family: Roboto;
+font-weight: 500;
+font-size: 20px;
+text-indent: 24px;
+outline: none;
+}
+form div > input {
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button{
+    border-radius: 10px;
+background: #4D0EFF;
+box-shadow: -4px -4px 4px 0px rgba(52, 36, 121, 0.25), 4px 4px 4px 0px rgba(52, 36, 121, 0.25);
+border: none;
+color: #FEDDFF;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+padding: 16px 24px;
+}
+p{
+    color: #D7D7DD;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+}
+a{
+    color: #4D0EFF;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 600;
+cursor: pointer;
+}
+.kozli-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-eye{
+    height: 69px;
+    background: transparent;
+    border: 4px solid #342479;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
