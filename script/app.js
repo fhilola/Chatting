@@ -3,5 +3,12 @@ import { loginForm, loginUsernameInput, loginPasswordInput, signUpForm, signUpUs
 import visibility from "./visibility.js";
 visibility(loginEyeBtn)
 
-import { SignUpData } from "./datas.js"
-const signupData = new SignUpData(`"${signUpUsername.value}", "${signUpEmail.value}", "${signUpPassword.value}", "${signUpConfirmPassword.value}"`)
+import SignUp from "./sign-up.js";
+signUpForm.addEventListener("submit", (e)=>{
+    e.preventDefault()
+    const signUp = new SignUp(`${signUpUsername.value}`, `${signUpEmail.value}`, `${signUpPassword.value}`, `${signUpConfirmPassword.value}`)
+    console.log(signUp);
+    localStorage.setItem("signup-data", JSON.stringify(signUp))
+})
+
+import { EMAIL_REGEX } from "./sign-up.js";

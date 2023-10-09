@@ -9,14 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form id="sign-up-form">
+    <form id="sign-up-form">    
         <h1>CHIT CHAT</h1>
         <input type="text" placeholder="Username" id="sign-up-username">
         <input type="email" placeholder="Email" id="sign-up-email">
-        <input type="password" placeholder="Password" id="sign-up-password">
+        <div class="kozli-div">
+            <input type="password" placeholder="Password" id="sign-up-password">
+            <button type="button" id="eye-btn" class="fas fa-eye"></button>
+        </div>
         <input type="password" placeholder="Confirm Password" id="sign-up-confirm-password">
-        <button>CREATE USER</button>
+        <button type="submit">CREATE USER</button>
         <p>ALREADY HAVE AN ACCOUNT ? <a href="../index.html">LOGIN</a></p>
     </form>
+    <script type="module" src="../script/app.js"></script>
 </body>
 </html>
