@@ -11,13 +11,16 @@
 <body>
     <form id="sign-up-form">    
         <h1>CHIT CHAT</h1>
-        <input type="text" placeholder="Username" id="sign-up-username">
-        <input type="email" placeholder="Email" id="sign-up-email">
+        <input type="text" placeholder="Username" id="sign-up-username" required>
+        <input type="email" placeholder="Email" id="sign-up-email" required>
+        <p style="display: none;" id="emailchecker"></p>
         <div class="kozli-div">
-            <input type="password" placeholder="Password" id="sign-up-password">
+            <input type="password" placeholder="Password" id="sign-up-password" required>
+            <p style="display: none;" id="passwordchecker"></p>
             <button type="button" id="eye-btn" class="fas fa-eye"></button>
         </div>
-        <input type="password" placeholder="Confirm Password" id="sign-up-confirm-password">
+        <input type="password" placeholder="Confirm Password" id="sign-up-confirm-password" required>
+        <p style="display: none;" id="confirmchecker"></p>
         <button type="submit">CREATE USER</button>
         <p>ALREADY HAVE AN ACCOUNT ? <a href="../index.html">LOGIN</a></p>
     </form>

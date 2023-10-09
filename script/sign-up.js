@@ -1,5 +1,5 @@
-import { signUpForm, signUpUsername, signUpEmail, signUpPassword, signUpConfirmPassword} from "./elements.js"
-const EMAIL_REGEX = /^([A-Za-z0-9_\-.+])+@([A-Za-z0-9_\-.])+\.([A-Za-z]{2,})$/
+import { signUpForm, signUpUsername, signUpEmail, signUpPassword, signUpConfirmPassword, emailChecker, passwordChecker, confirmChecker} from "./elements.js"
+
 export default class SignUp {
     constructor(username, email, password, confirmpassword){
         this.username = username
@@ -7,6 +7,4 @@ export default class SignUp {
         this.password = password
         this.confirmpassword = confirmpassword
     }
-
 }
-export {EMAIL_REGEX}
