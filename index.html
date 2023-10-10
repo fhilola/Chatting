@@ -11,14 +11,16 @@
 <body>
     <form id="form">
        <h1>CHIT CHAT</h1>
-       <input type="text" placeholder="Username" id="username"> 
+       <input type="text" placeholder="Username" id="username">
+       <p style="display: none;" id="usernameChecker"></p> 
        <div class="kozli-div">
         <input type="password" placeholder="Password" id="password">
         <button type="button" class="fas fa-eye" id="eye-btn"></button>
        </div>
+       <p style="display: none;" id="passwordChecker"></p>
        <button type="submit" id="submit-btn">Log In</button>
        <p>DON`T HAVE AN ACCAUNT? <a href="./pages/sign-up.html">CREATE ONE</a></p>
     </form>
-    <script type="module" src="./script/app.js"></script>
+    <script src="./script/login.js"></script>
 </body>
 </html>
