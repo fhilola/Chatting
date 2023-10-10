@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/chatting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="users">
+            <h1>Chit Chat</h1>
+            <div>
+                <img src="../images/amaki.svg" alt="">
+                <strong>avi_chovatiya</strong>
+            </div>
+            <div>
+                <img src="../images/buvijon.svg" alt="">
+                <strong>kishu_patel68</strong>
+            </div>
+            <div>
+                <img src="../images/togajon.svg" alt="">
+                <strong>avi_chovatiya67</strong>
+            </div>
+            <div class="auth-accaunt">
+                <img id="auth-avatar"  alt="">
+                <strong id="auth-username">Richa_denials</strong>
+            </div>
+        </div>
+        <div class="chatting-page">
+            <div id="robot">
+                <img src="../images/robot.svg" alt="">
+            </div>
+            <div id="greeting">
+                <h2>Welcome, <span id="greeting-content">Richa_denials</span></h2>
+                <p>plese select a chat to start messaging.</p>
+            </div>
+            <div id="info" style="display: none;">
+                    <div>
+                        <img id="messager-avatar" src="" alt="">
+                        <strong id="messager-username"></strong>
+                    </div>
+                    <img src="../images/pause.svg" alt="">
+            </div>
+            <div id="messages" style="display: none;"></div>
+            <form id="message-form" style="display: none;">
+                <i class="fas fa-smile"></i>
+                <input id="message-input" type="text" placeholder="Type your message here">
+                <button type="submit" class="fa-brands fa-telegram"></button>
+            </form>
+        </div>
+    </div>
+    <script src="../script/chatting.js"></script>
+</body>
+</html>

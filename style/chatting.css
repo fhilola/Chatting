@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0A0A14;
+    padding: 70px;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.users{
+    width: 30%;
+    height: 100%;
+    background-color:#1B1923;
+    display: flex;
+    flex-direction: column;
+    gap: 32px 0;
+    padding: 15px;
+}
+.users h1{
+    color: #FBFDF5;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: 600;
+text-align: center;
+margin-top: 20px;
+/* margin-bottom: 42px; */
+}
+.users div{
+    display: flex;
+    align-items: center;
+    gap: 0 17px;
+    background-color: #3B374E;
+    padding: 15px;
+}
+.users div:hover{
+    background: #9A85FB;
+}
+.users div img{
+    width: 80px;
+}
+.users div strong{
+    color: #F5EDF5;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 500;
+}
+.users .auth-accaunt{
+    margin-top: 95px;
+    background-color: #0D0D31;
+}
+.users .auth-accaunt:hover{
+    background: #0D0D31;
+}
+.chatting-page{
+    width: 70%;
+    height: 100%;
+    background-color: #0A0A14;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chatting-page h2{
+    color: #FEFCF3;
+text-align: center;
+font-family: sans-serif;
+font-size: 26px;
+font-weight: 600;
+}
+.chatting-page h2 span{
+    color: #441AD3;
+font-family: sans-serif;
+font-size: 24px;
+font-weight: 600;
+}
+.chatting-page p{
+    color: #D1D2D2;
+font-family: sans-serif;
+font-size: 22px;
+font-weight: 600;
+}
+.starting{
+    width: 70%;
+    height: 100%;
+    background-color: #0A0A14;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+}
+.starting #info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 935px;
+}
+.starting #info div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 14px;
+    flex-grow: 1;
+}
+.starting #info div img{
+    width: 50px;
+}
+.starting #info div strong{
+    color: #F5EDF5;
+font-family: sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+#messages{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* background-color: gold; */
+    width: 100%;
+    height: 100%;
+}
+.starting #message-form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0 20px;
+}
+.starting #message-form .fa-smile{
+    color: gold;
+    font-size: 50px;
+}
+.starting #message-form .fa-telegram{
+    color: #9A85FB;
+    font-size: 50px;
+}
+.starting #message-form input{
+    height: 50px;
+    width: 1000px;
+    font-size: 18px;
+    text-indent: 10px;
+}
+.starting #message-form button{
+    background-color: transparent;
+    border: none;
+}
